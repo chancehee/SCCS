@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 public class ProblemDto {
+    private int id;
     private String name;
     private int difficulty;
     private String problemFolder;
