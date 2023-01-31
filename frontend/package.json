@@ -27,9 +27,9 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.6.2",
     "react-scripts": "5.0.1",
-    "react-simple-code-editor": "^0.13.1",
     "redux": "^4.2.0",
     "redux-persist": "^6.0.0",
+    "sockjs-client": "^1.6.1",
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },

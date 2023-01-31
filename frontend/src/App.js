@@ -16,7 +16,7 @@ import SolvedPage from './pages/mypage/SolvedPage'
 import CalendarPage from './pages/mypage/CalendarPage'
 import StudyDetailPage from 'pages/mypage/StudyDetailPage'
 import SolveProblem from 'pages/study/SolveProblem'
-
+import Socket from 'socket/Socket'
 import GlobalStyle from './styles/GlobalStyle'
 import { ThemeProvider } from 'styled-components'
 import { light, dark } from './styles/theme'
@@ -46,7 +46,6 @@ function App() {
           <Route path="solved" element={<SolvedPage />}></Route>
         </Route>
         <Route path="/solveproblem" element={<SolveProblem />}></Route>
-        <Route path="/openvidu" element={<VideoRoomComponent />}></Route>
       </Routes>
     </ThemeProvider>
   )
