@@ -8,7 +8,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 public class ProblemDto {
+<<<<<<< HEAD
     privatte int id;
+=======
+    private int id;
+>>>>>>> 573af66ceb3eca469c47996fd6c1b8ebe79e5012
     private String name;
     private int difficulty;
     private String problemFolder;
