@@ -15,7 +15,10 @@ import EditPwdPage from './pages/mypage/EditPwdPage'
 import SolvedPage from './pages/mypage/SolvedPage'
 import CalendarPage from './pages/mypage/CalendarPage'
 import StudyDetailPage from 'pages/mypage/StudyDetailPage'
+
 import SolveProblem from 'pages/study/SolveProblem'
+import Study from 'pages/study/Study'
+
 
 import GlobalStyle from './styles/GlobalStyle'
 import { ThemeProvider } from 'styled-components'
@@ -47,6 +50,8 @@ function App() {
         </Route>
         <Route path="/solveproblem" element={<SolveProblem />}></Route>
         <Route path="/openvidu" element={<VideoRoomComponent />}></Route>
+        <Route path="/study" element={<Study />}></Route>
+        
       </Routes>
     </ThemeProvider>
   )
