@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useCallback } from 'react'
 import Editor from 'react-simple-code-editor'
 // import Prism from 'prismjs';
 import { highlight, languages } from 'prismjs/components/prism-core'
@@ -29,6 +29,18 @@ export default function Textarea() {
 
   const [codeValue, setCodeValue] = useState('')
 
+  const convertCode = useCallback(() => {
+    let fileName = '';
+    let output = "tggggggggg";
+    const element = document.createElement('a');
+    const file = new Blob([output], {
+      type: 'text/plain',
+    });
+    element.href = URL.createObjectURL(file);
+    element.download = fileName;
+    document.body.appendChild(element); // FireFox
+    element.click();
+  },[])
   return (
     <StyledEditor
       value={codeValue}
