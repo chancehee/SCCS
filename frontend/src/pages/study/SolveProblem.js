@@ -5,6 +5,14 @@ import Textarea from 'components/study/Textarea'
 import Footer from 'components/study/Footer'
 
 export default function SolveProblem() {
+  
+  // const handleChange = (e) => {
+  //   this.setState({
+  //     [e.target.name]: e.target.value, 
+  //   });
+  // };
+
+
   return (
     <Main>
       <Problem>
