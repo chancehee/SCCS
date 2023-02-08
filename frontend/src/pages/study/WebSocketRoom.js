@@ -191,7 +191,7 @@ export default function WebSocketRoom() {
             // 시험 종료 버튼 전부 누르면 스터디 페이지로 이동
             console.log(readyForStudyArray)
             setReadyForStudyArray(content.readyForStudyArray, () => {
-              if (personnel === readyForStudyArray.length + 1) {
+              if (personnel === readyForStudyArray.length) {
                 setCodingTest(false)
                 setStudy(true)
               }
