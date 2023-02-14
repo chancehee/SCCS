@@ -323,7 +323,7 @@ const Img = styled.img`
 
 const FlexColumn = styled.div`
   display: flex;
-  height: 100%;
+  height: 99vh;
   flex-direction: column;
   flex: 1;
   overflow: auto visible;
