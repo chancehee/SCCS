@@ -1,7 +1,8 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&color=1364D1&height=200&section=header&text=SCCS&fontSize=60" />
-</p>
-![제목을-입력해주세요_-001](https://user-images.githubusercontent.com/53232881/219299375-cea4f482-af58-4dfa-aa9e-11b4fe5bcd57.png)
+</p>  
+
+![표지](https://user-images.githubusercontent.com/59447235/224549840-9a64f155-cd90-4e89-9ec7-5eb3cc91ae56.png)
 
 ## 목차
 
@@ -112,10 +113,6 @@
 <div id="4"></div>
 
 ## 🗂️ 시스템 아키텍처
-
-|   시스템 구성   |
-| :-------------: |
-| 실코체스 로그인 |
 
 <br />
 
