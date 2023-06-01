@@ -2,7 +2,8 @@
   <img src="https://capsule-render.vercel.app/api?type=wave&color=1364D1&height=200&section=header&text=SCCS&fontSize=60" />
 </p>
 
-<img src="https://user-images.githubusercontent.com/53232881/219299375-cea4f482-af58-4dfa-aa9e-11b4fe5bcd57.png" />
+<img src="https://user-images.githubusercontent.com/53232881/219299375-cea4f482-af58-4dfa-aa9e-11b4fe5bcd57.png" />  
+
 ## 목차
 
 1. [**서비스 소개**](#1)
@@ -111,44 +112,12 @@
 
 <div id="4"></div>
 
-## 🗂️ 시스템 아키텍처
-
-|   시스템 구성   |
-| :-------------: |
-| 실코체스 로그인 |
+## 🗂️ 시스템 아키텍처  
+<img width="1048" alt="Untitled (1)" src="https://github.com/chancehee/SCCS/assets/59447235/612ab0aa-59d6-4b59-955a-8a693d5323bc">
 
 <br />
 
 <div id="5"></div>
-
-## Front-End 폴더구조
-
-📦src <br>
-┣ 📂assets <br>
-┃ ┣ 📂font<br>
-┃ ┣ 📂gif<br>
-┃ ┗ 📂img<br>
-┣ 📂components<br>
-┃ ┣ 📂auth<br>
-┃ ┣ 📂common<br>
-┃ ┣ 📂main<br>
-┃ ┣ 📂mypage<br>
-┃ ┗ 📂study<br>
-┣ 📂constants<br>
-┣ 📂hooks<br>
-┣ 📂layouts<br>
-┣ 📂libs<br>
-┣ 📂pages<br>
-┃ ┣ 📂auth<br>
-┃ ┣ 📂main<br>
-┃ ┣ 📂mypage<br>
-┃ ┣ 📂study<br>
-┣ 📂redux<br>
-┣ 📂styles<br>
-┣ 📜App.css<br>
-┣ 📜App.js<br>
-┣ 📜index.css<br>
-┣ 📜index.js<br>
 
 ## ERD
 
