@@ -1,9 +1,8 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=wave&color=1364D1&height=200&section=header&text=SCCS&fontSize=60" />
-</p>  
+</p>
 
-![표지](https://user-images.githubusercontent.com/59447235/224549840-9a64f155-cd90-4e89-9ec7-5eb3cc91ae56.png)
-
+<img src="https://user-images.githubusercontent.com/53232881/219299375-cea4f482-af58-4dfa-aa9e-11b4fe5bcd57.png" />
 ## 목차
 
 1. [**서비스 소개**](#1)
@@ -101,9 +100,9 @@
 |          | Stompjs         | Stompjs            | 2.3.3     |
 |          | IDE             | Visual Studio Code | 1.75.1    |
 | Server   | 서버            | AWS EC2            | \-        |
-|          | 플랫폼          | Ubuntu             | ?         |
-|          | CI/CD           | Docker             | ?         |
-|          |                 | Jenkins            | ?         |
+|          | 플랫폼          | Ubuntu\AWS Liunx   | 20.04 , AWS Linux2|
+|          | CI/CD           | Docker             | 20.10.17  |
+|          |                 | Jenkins            | jenkins/jenkins:lts|
 
 </details>
 </div>
@@ -113,6 +112,10 @@
 <div id="4"></div>
 
 ## 🗂️ 시스템 아키텍처
+
+|   시스템 구성   |
+| :-------------: |
+| 실코체스 로그인 |
 
 <br />
 
@@ -186,19 +189,19 @@
 <table>
     <tr>
         <td align="center"> 
-              ![signup](https://user-images.githubusercontent.com/53232881/219396086-151a3a8f-ab54-45d6-a346-2b6ded9ec869.gif)
+              <img src="https://user-images.githubusercontent.com/53232881/219396086-151a3a8f-ab54-45d6-a346-2b6ded9ec869.gif" />
         </td>
         <td align="center">  <br> <br>회원 가입<br><br> ID 닉네임 중복 검사, 비밀번호 이메일 유효성 검사<br/><br/></td>
     </tr>
     <tr>
         <td align="center">
-              ![login](https://user-images.githubusercontent.com/53232881/219396102-82cd3ec2-0b08-487b-b3a0-8e01f5c8bcaa.gif)
+              <img src="https://user-images.githubusercontent.com/53232881/219396102-82cd3ec2-0b08-487b-b3a0-8e01f5c8bcaa.gif" />
         </td>
         <td align="center">  <br> <br>로그인 <br><br>ID, PW 불일치시 안내문 출력<br/><br/><br/></td>
     </tr>
     <tr>
         <td align="center">
-             ![findIdPassWord](https://user-images.githubusercontent.com/53232881/219397769-2e529d24-240c-43ad-b177-e2c814386b2d.gif) 
+             <img src="https://user-images.githubusercontent.com/53232881/219397769-2e529d24-240c-43ad-b177-e2c814386b2d.gif" />
         </td>
         <td align="center">  <br> <br>아이디 찾기 <br><br>이름과 EMAIL 일치시 이메일로 발송<br/><br/>  <br> <br>비밀번호 찾기<br><br> ID와 EMAIL 일치시 이메일로 발송(랜덤 문자열 전송)<br/><br/></td>
     </tr>
@@ -211,13 +214,13 @@
 <table>
 <tr>
         <td align="center">
-              ![main](https://user-images.githubusercontent.com/53232881/219308427-465ecc8e-507f-473b-9a49-78bc4b78c166.gif)
+              <img src="https://user-images.githubusercontent.com/53232881/219308427-465ecc8e-507f-473b-9a49-78bc4b78c166.gif" />
         </td>
         <td align="center">  <br> <br>메인페이지<br><br> 상단 nav에 로그인,회원가입 표시<br/><br> 상단 nav에 로그아웃 표시<br/><br/></td>
 </tr>
 <tr>
         <td align="center">
-              ![search](https://user-images.githubusercontent.com/53232881/219398140-300ed40b-45c6-47b4-b156-bddbf831536b.gif)
+              <img src="https://user-images.githubusercontent.com/53232881/219398140-300ed40b-45c6-47b4-b156-bddbf831536b.gif" />
         </td>
         <td align="center">  <br> <br>메인페이지 검색<br><br>조건별 검색기능, 실시간 방 목록 조회(Socket통신)<br/><br/></td>
 </tr>
@@ -229,7 +232,7 @@
 <table>
 <tr>
         <td align="center">
-              ![about](https://user-images.githubusercontent.com/53232881/219398101-7b6b711d-0f9b-49ea-9806-3a0bfafa1775.gif)
+              <img src="https://user-images.githubusercontent.com/53232881/219398101-7b6b711d-0f9b-49ea-9806-3a0bfafa1775.gif" />
         </td>
         <td align="center">  <br> <br>About 페이지<br><br> 사이트 소개 페이지 열람<br/><br/></td>
 </tr>
@@ -241,7 +244,7 @@
 <table>
 <tr>
         <td align="center">
-              ![방생성](https://user-images.githubusercontent.com/59447235/219528851-c7ad27a9-63e2-416d-996e-b77c32f464f5.gif)
+              <img src="https://user-images.githubusercontent.com/59447235/219528851-c7ad27a9-63e2-416d-996e-b77c32f464f5.gif" />
         </td>
         <td align="center">  <br> <br>원하는 조건으로 방 생성<br><br/></td>
 </tr>
@@ -253,7 +256,7 @@
 <table>
 <tr>
         <td align="center">
-              ![방생성222-min](https://user-images.githubusercontent.com/59447235/219528503-5c972fab-a846-4558-ae3b-bda521abd0bf.gif)
+              <img src="https://user-images.githubusercontent.com/59447235/219528503-5c972fab-a846-4558-ae3b-bda521abd0bf.gif" />
         </td>
         <td align="center">  <br> <br>실시간 소켓통신을 통한 채팅 기능<br><br> 실전같은 코테 안내문 열람<br/><br/></td>
 </tr>
@@ -265,7 +268,7 @@
 <table>
 <tr>
         <td align="center">
-              ![테스트화면(리얼)](https://user-images.githubusercontent.com/59447235/219529036-3a1cd5de-3960-4e88-b388-a6a34b5e6337.gif)
+              <img src="https://user-images.githubusercontent.com/59447235/219529036-3a1cd5de-3960-4e88-b388-a6a34b5e6337.gif" />
         </td>
         <td align="center">  <br> <br>2가지 언어로 문제 풀이 가능<br><br> 테스트케이스 채점 기능<br/><br/></td>
 </tr>
@@ -277,7 +280,7 @@
 <table>
 <tr>
         <td align="center">
-              ![스터디페이지2222-min](https://user-images.githubusercontent.com/59447235/219530060-a44c5c8d-0be8-481b-bf30-850682a5a7de.gif)
+              <img src="https://user-images.githubusercontent.com/59447235/219530060-a44c5c8d-0be8-481b-bf30-850682a5a7de.gif" />
         </td>
         <td align="center">  <br> <br>그림판 공유 기능<br><br> 다른 사람이 제출한 코드 열람<br/><br/></td>
 </tr>
@@ -289,19 +292,19 @@
 <table>
 <tr>
         <td align="center">
-              ![studyrecord](https://user-images.githubusercontent.com/53232881/219398147-f9093e93-1725-4126-8137-b897bbf23fa6.gif)
+              <img src="https://user-images.githubusercontent.com/53232881/219398147-f9093e93-1725-4126-8137-b897bbf23fa6.gif" />
         </td>
         <td align="center">  <br> <br>스터디 기록<br><br> 참여한 스터디 내역, 제출 코드, 참여자 목록 조회 가능<br/><br/></td>
 </tr>
 <tr>
         <td align="center">
-              ![myproblem](https://user-images.githubusercontent.com/53232881/219398135-cd81d354-f8e0-48b0-8e97-1ecc7c07a6bc.gif)
+              <img src="https://user-images.githubusercontent.com/53232881/219398135-cd81d354-f8e0-48b0-8e97-1ecc7c07a6bc.gif" />
         </td>
         <td align="center">  <br> <br>내가 푼 문제<br><br>내가 푼 문제 목록 조회, 재제출 가능<br/><br/></td>
 </tr>
 <tr>
         <td align="center">
-              ![profile](https://user-images.githubusercontent.com/53232881/219398137-ea822b43-6d4c-4c0e-bd13-98bff76e509a.gif)
+              <img src="https://user-images.githubusercontent.com/53232881/219398137-ea822b43-6d4c-4c0e-bd13-98bff76e509a.gif" />
         </td>
         <td align="center">  <br> <br>프로필 페이지<br><br>회원 정보 수정(프로필 이미지는 아마존 S3에 저장)<br/><br/></td>
 </tr>
